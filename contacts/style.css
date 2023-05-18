@@ -1,0 +1,96 @@
+body {
+    background-color: #222;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+.contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contacts li {
+    display: table;
+    padding: .25em;
+    
+}
+.contacts li > * {
+    display: table-cell;
+    vertical-align: middle;
+    transition: 1.0s;
+       
+}
+.contacts .avatar {
+    margin: 0;
+    padding-right: 1em;
+}
+.contacts .avatar img {
+    height: 3em ;
+}
+.contacts .avatar .status {
+    width: 0.4em;
+    height: 0.4em;
+    display: inline-block;
+    
+    border-radius: 0.4em;
+    margin-left: -1em;
+   
+}
+.contacts .info > span {
+    display: table-row;
+}
+.contacts .action {
+    padding:0 3em;
+}
+.contacts .action a.add {
+    text-decoration: none;
+    background-color: #111;
+    color: #DDD;
+    display: block;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 2em;
+}
+.contacts .action a.add:hover {
+    background-color: #4a4545;
+    color: white;
+}
+.contacts .add-details>div {
+    /* display: none; */
+    /* opacity: 0; */
+    /* background-color: #fff; */
+    width: 0;
+    transition: 1.5s;
+    overflow: hidden;
+    white-space: nowrap;
+   
+    
+}
+.contacts .add-details a {
+    text-decoration: none;
+    color: yellowgreen
+}
+.contacts li:target .add-details>div {
+    /* display: table-cell; */
+    /* opacity: 1; */
+    width: 100%;
+
+}
+.contacts li:target >* {
+    transform: translateX(-13em);
+    
+}
+
+.status.off {
+    background-color: #444;
+    border: 1px solid #777;
+}
+.status.on {
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+.contacts .info .text {
+    display: table;
+}
