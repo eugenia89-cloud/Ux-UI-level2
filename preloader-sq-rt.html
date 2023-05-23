@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Preloader Example in CSS</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        .preloader {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 100px;
+        }
+        .preloader .square {
+            width: 10px;
+            height: 10px;
+            background-color: darkgreen;
+            
+            transform: translateX(-20px) translateY(-20px);
+            animation: travel 10s infinite;
+        }
+        .preloader .square:nth-child(2) {
+             transform: translateX(210px) translateY(210px);
+             animation: travel2 10s infinite;
+        }
+        @keyframes travel {
+            0% {
+               transform: translateX(-20px) translateY(-20px); 
+            }
+           25% {
+                transform: translateX(210px) translateY(-20px);
+            }
+            50% {
+               transform: translateX(210px) translateY(210px);
+            }
+              75% {
+               transform: translateX(-20px) translateY(210px);
+            }
+              100% {
+               transform: translateX(-20px) translateY(-20px);
+            }
+        }
+        @keyframes travel2 {
+            0% {
+               transform: translateX(210px) translateY(210px); 
+            }
+            25% {
+               transform: translateX(-20px) translateY(210px); 
+            }
+            50% {
+                transform: translateX(-20px) translateY(-20px);
+            }
+            75% {
+                 transform: translateX(210px) translateY(-20px);
+            }
+            100% {
+                transform: translateX(210px) translateY(210px); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="preloader">
+        <div class="square"></div>
+        <div class="square"></div>
+        
+    </div>
+    
+</body>
+</html>
