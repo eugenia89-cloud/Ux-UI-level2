@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Modol Windows pseudo+ position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Elementul main contine sectiunea principala a unui document, subiectul central al unui document sau functia princiapala a unei aplicatii. -->
+    <main id="content">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatum.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere ullam odio consequuntur sapiente beatae praesentium dicta temporibus voluptas, autem error provident asperiores velit itaque tempora vitae illum esse porro cupiditate rerum nesciunt explicabo quibusdam. Saepe eligendi suscipit iste, inventore fugit tempora dolorem doloribus tempore alias doloremque ab pariatur itaque?</p>
+        <p>Ea aliquam ad aut adipisci dicta voluptate sint quod minima velit dolorem. Molestias non, incidunt maiores reiciendis atque, laudantium cum accusamus in asperiores nam aspernatur autem eius facere. Magnam itaque dolorum, facilis, animi odio tempora, officia rerum cupiditate voluptatibus est iste. Dolorum veritatis laboriosam vitae esse laborum officia cupiditate eius!</p>
+        <p>Voluptate vero iure praesentium corporis sint! Quos dolore dolores itaque nisi voluptatum ipsum ab pariatur atque quia consectetur et voluptas iure quam dolor vel minima, maxime fugiat saepe neque veritatis suscipit. Repellat doloribus commodi fuga deserunt, iure illum incidunt repellendus dolorem maxime quia aut, dolor labore doloremque, accusamus nulla corporis.</p>
+        <p class="add">
+            To benefit from it Hit<a href="#modal">This Button</a>
+        </p>
+
+    </main>
+<!-- putem folosi 2 elemente H1, atit timp cit ele reprezinta titlul a 2 documente diferite! Cum avem noi in acest caz. -->
+    <div id="modal">
+        <h1>Apply for this product!</h1>
+        <h2>In order to apply fill this blank</h2>
+       <form >
+        <label for="">
+       
+            <input type="text" placeholder="full name:e.g John Doe" required> 
+        </label> <br>
+            
+           <label for="">
+            <select id="cod">
+                <option>+373</option>
+                <option>+407</option>
+                <option>+393</option>
+                
+            </select>
+            <input type="text" 
+            placeholder="phone:+123/45678">
+        </label>
+           <label for="">
+            <input type="text" placeholder="email:john@something.example" required>
+        </label>
+         
+            <button>APPLY!!!</button>
+        </form>
+        <a href="#">X</a>
+
+    </div>
+    <div class="overlay"></div>
+    
+</body>
+</html>
