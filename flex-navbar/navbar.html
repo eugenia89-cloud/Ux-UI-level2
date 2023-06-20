@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Navbar with Flex (flexbox)</title>
+    <style>
+        body {
+            background-color: #333;
+            font-family: arial;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #111;
+            /* height: 100vh; */
+            display: flex;
+            justify-content: flex-start;
+        
+            
+        }
+        @media (max-width: 800px) {
+            .navbar ul {
+                flex-direction: column;
+            }
+        }
+        .navbar li {
+            border: 1px solid red;
+            padding: 0.5em;
+        }
+        .navbar .brand {
+            font-size: 30px;
+            padding: 0.5em;
+            margin: 0.5em;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+
+          <li class="brand"><a href="">Brand</a></li>
+          <li><a href="">Dignissimos!</a></li>
+          <li><a href="">Autem!</a></li>
+          <li><a href="">Sit!</a></li>
+          <li><a href="">Facilis.</a></li>
+          <li><a href="">Sapiente!</a></li>
+          <li><a href="">Doloribus?</a></li> 
+        </ul>
+    </nav>
+    
+</body>
+</html>
