@@ -1,0 +1,91 @@
+$colordark: #333;
+$colorLight: orange;
+$sizeW:800px;
+$sizeH:600px;
+$thickness: 5px;
+@mixin reset {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: $colordark;
+    @include reset;
+}
+.carousel {
+    width:$sizeW ;
+    height: $sizeH;
+    border:$thickness solid lighten($colordark,10%);
+
+    .slide {
+        &:nth-child(1) {
+            >div {
+                background-image: url(picture/slide1.jpg);
+            }
+        }
+        &:nth-child(2) {
+            >div {
+                background-image: url(picture/slide2.jpg);
+            }
+        }
+
+
+        // position:absolute;
+        border: 1px solid green;
+         width: inherit;
+         height: inherit; 
+         @for $child from 1 through 2 {
+          &:nth-child(#{$child})
+    
+         >div {
+            box-sizing: border-box;
+            width: $sizeW /8;
+            height: $sizeH /6;
+            border: 1px solid red;
+            float: left;
+           
+
+         @for $y from 0 through 5 {
+           @for $x from 0 through 7 {
+            &:nth-child(#{$x + 1 +$y * 8}) {
+                background-position-x: $x * -$sizeW /8;
+                background-position-Y: $y * -$sizeH /6;
+
+                // opacity: 0;
+                // animation: effect1 5s 1;
+                // animation-fill-mode: forwards;
+                // // animation-delay: 1s * ($y +$x);
+                // animation-delay: 0.5s * random(10);
+                transform: translateX(-2 * $sizeW) translateY(-2 * $sizeH) rotate(0);
+                animation: effect2 0.25s * random(5) 1;
+                animation-fill-mode: forwards;
+                animation-delay: 0.1s * random(10) + ($child -1) *5s;
+
+
+                
+              }
+            }
+          }
+        }
+     }
+    }
+
+}
+      
+@keyframes effect1 {
+    from {
+        opacity:0 ;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes effect2 {
+    from {
+        transform: translateX(-2 * $sizeW) translateY(-2 * $sizeH) rotate(-1800deg);
+    }
+    to {
+        transform: translateX(0) translateY(0) rotate(0);
+    }
+}
