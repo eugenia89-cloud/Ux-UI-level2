@@ -10,6 +10,7 @@ body {
   border: 5px solid #4d4d4d;
 }
 .carousel .slide {
+  position: absolute;
   border: 1px solid green;
   width: inherit;
   height: inherit;
@@ -31,17 +32,17 @@ body {
   background-position-x: 0px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s1 -1;
+  animation-delay: 1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(2) {
   background-position-x: -100px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.7s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(3) {
   background-position-x: -200px;
@@ -49,39 +50,39 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s1 -1;
+  animation-delay: 1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(4) {
   background-position-x: -300px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(5) {
   background-position-x: -400px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(6) {
   background-position-x: -500px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s1 -1;
+  animation-delay: 0.4s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(7) {
   background-position-x: -600px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.4s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(8) {
   background-position-x: -700px;
@@ -89,63 +90,63 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s1 -1;
+  animation-delay: 0.4s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(9) {
   background-position-x: 0px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.4s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(10) {
   background-position-x: -100px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(11) {
   background-position-x: -200px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(12) {
   background-position-x: -300px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(13) {
   background-position-x: -400px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s1 -1;
+  animation-delay: 0.7s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(14) {
   background-position-x: -500px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(15) {
   background-position-x: -600px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(16) {
   background-position-x: -700px;
@@ -153,7 +154,7 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(17) {
   background-position-x: 0px;
@@ -161,39 +162,39 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(18) {
   background-position-x: -100px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s1 -1;
+  animation-delay: 0.3s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(19) {
   background-position-x: -200px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.7s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(20) {
   background-position-x: -300px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(21) {
   background-position-x: -400px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(22) {
   background-position-x: -500px;
@@ -201,7 +202,7 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s1 -1;
+  animation-delay: 0.3s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(23) {
   background-position-x: -600px;
@@ -209,7 +210,7 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(24) {
   background-position-x: -700px;
@@ -217,23 +218,23 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s1 -1;
+  animation-delay: 1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(25) {
   background-position-x: 0px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(26) {
   background-position-x: -100px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(27) {
   background-position-x: -200px;
@@ -241,63 +242,63 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s1 -1;
+  animation-delay: 0.3s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(28) {
   background-position-x: -300px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s1 -1;
+  animation-delay: 0.4s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(29) {
   background-position-x: -400px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(30) {
   background-position-x: -500px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(31) {
   background-position-x: -600px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(32) {
   background-position-x: -700px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.5s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(33) {
   background-position-x: 0px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(34) {
   background-position-x: -100px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(35) {
   background-position-x: -200px;
@@ -305,63 +306,63 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(36) {
   background-position-x: -300px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(37) {
   background-position-x: -400px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s1 -1;
+  animation-delay: 0.2s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(38) {
   background-position-x: -500px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s1 -1;
+  animation-delay: 0.1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(39) {
   background-position-x: -600px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(40) {
   background-position-x: -700px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s1 -1;
+  animation-delay: 1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(41) {
   background-position-x: 0px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s1 -1;
+  animation-delay: 0.8s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(42) {
   background-position-x: -100px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(43) {
   background-position-x: -200px;
@@ -369,31 +370,31 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s1 -1;
+  animation-delay: 1s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(44) {
   background-position-x: -300px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s1 -1;
+  animation-delay: 0.2s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(45) {
   background-position-x: -400px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(46) {
   background-position-x: -500px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(47) {
   background-position-x: -600px;
@@ -401,15 +402,15 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s1 -1;
+  animation-delay: 0.9s;
 }
 .carousel .slide:nth-child(1) > div:nth-child(48) {
   background-position-x: -700px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s1 -1;
+  animation-delay: 0.6s;
 }
 .carousel .slide:nth-child(2) > div {
   box-sizing: border-box;
@@ -422,25 +423,25 @@ body {
   background-position-x: 0px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s2 -1;
+  animation-delay: 5.5s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(2) {
   background-position-x: -100px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.8s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(3) {
   background-position-x: -200px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.9s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(4) {
   background-position-x: -300px;
@@ -448,63 +449,63 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(5) {
   background-position-x: -400px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(6) {
   background-position-x: -500px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(7) {
   background-position-x: -600px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s2 -1;
+  animation-delay: 5.3s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(8) {
   background-position-x: -700px;
   background-position-Y: 0px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(9) {
   background-position-x: 0px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s2 -1;
+  animation-delay: 5.9s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(10) {
   background-position-x: -100px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(11) {
   background-position-x: -200px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s2 -1;
+  animation-delay: 5.3s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(12) {
   background-position-x: -300px;
@@ -512,23 +513,23 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s2 -1;
+  animation-delay: 5.2s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(13) {
   background-position-x: -400px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s2 -1;
+  animation-delay: 5.4s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(14) {
   background-position-x: -500px;
   background-position-Y: -100px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(15) {
   background-position-x: -600px;
@@ -536,7 +537,7 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(16) {
   background-position-x: -700px;
@@ -544,71 +545,71 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s2 -1;
+  animation-delay: 5.4s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(17) {
   background-position-x: 0px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.2s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(18) {
   background-position-x: -100px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(19) {
   background-position-x: -200px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(20) {
   background-position-x: -300px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.5s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(21) {
   background-position-x: -400px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s2 -1;
+  animation-delay: 5.9s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(22) {
   background-position-x: -500px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.1s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(23) {
   background-position-x: -600px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(24) {
   background-position-x: -700px;
   background-position-Y: -200px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.8s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(25) {
   background-position-x: 0px;
@@ -616,87 +617,87 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(26) {
   background-position-x: -100px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.2s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(27) {
   background-position-x: -200px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s2 -1;
+  animation-delay: 5.4s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(28) {
   background-position-x: -300px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.8s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(29) {
   background-position-x: -400px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s2 -1;
+  animation-delay: 5.9s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(30) {
   background-position-x: -500px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.8s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(31) {
   background-position-x: -600px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s2 -1;
+  animation-delay: 5.9s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(32) {
   background-position-x: -700px;
   background-position-Y: -300px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(33) {
   background-position-x: 0px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(34) {
   background-position-x: -100px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(35) {
   background-position-x: -200px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.5s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(36) {
   background-position-x: -300px;
@@ -704,7 +705,7 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s2 -1;
+  animation-delay: 5.3s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(37) {
   background-position-x: -400px;
@@ -712,15 +713,15 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.4s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(38) {
   background-position-x: -500px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s2 -1;
+  animation-delay: 5.8s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(39) {
   background-position-x: -600px;
@@ -728,15 +729,15 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(40) {
   background-position-x: -700px;
   background-position-Y: -400px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s2 -1;
+  animation-delay: 5.1s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(41) {
   background-position-x: 0px;
@@ -744,15 +745,15 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s2 -1;
+  animation-delay: 5.2s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(42) {
   background-position-x: -100px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s2 -1;
+  animation-delay: 5.1s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(43) {
   background-position-x: -200px;
@@ -760,31 +761,31 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.75s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(44) {
   background-position-x: -300px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.75s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s2 -1;
+  animation-delay: 5.7s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(45) {
   background-position-x: -400px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.25s 1;
+  animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s2 -1;
+  animation-delay: 5.3s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(46) {
   background-position-x: -500px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 1.25s 1;
+  animation: effect2 0.25s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.3s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(47) {
   background-position-x: -600px;
@@ -792,15 +793,15 @@ body {
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
   animation: effect2 0.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s2 -1;
+  animation-delay: 5.6s;
 }
 .carousel .slide:nth-child(2) > div:nth-child(48) {
   background-position-x: -700px;
   background-position-Y: -500px;
   transform: translateX(-1600px) translateY(-1200px) rotate(0);
-  animation: effect2 0.5s 1;
+  animation: effect2 1s 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s2 -1;
+  animation-delay: 5.9s;
 }
 
 @keyframes effect1 {
